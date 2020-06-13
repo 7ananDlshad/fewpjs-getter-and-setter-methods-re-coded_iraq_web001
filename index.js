@@ -25,8 +25,8 @@ class Circle{
     this.diameter = newcir/6
   }
   
-  set area(radius){
-    this.radius = radius
+  set area(rad){
+    this.radius = rad * 2
   }
   
 }
