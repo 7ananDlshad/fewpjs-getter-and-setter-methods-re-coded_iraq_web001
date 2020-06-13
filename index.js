@@ -6,7 +6,7 @@ class Circle{
   }
   
   get diameter(){
-    return   this.radius * 2
+    return this.radius * 2
   }
   
   get circumference(){
@@ -18,7 +18,7 @@ class Circle{
   }
   
   set diameter(newdia){
-   this.diameter = (newdia / 2)
+   this.d = (newdia / 2)
   }
   
   set circumference(newcir){
