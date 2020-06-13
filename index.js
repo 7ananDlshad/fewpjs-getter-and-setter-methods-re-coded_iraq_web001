@@ -21,8 +21,8 @@ class Circle{
    this.radius = radius
   }
   
-  set circumference(diameter){
-    this.diameter = diameter/2
+  set circumference(newcir){
+    this.circumference = newcir/2
   }
   
   set area(radius){
