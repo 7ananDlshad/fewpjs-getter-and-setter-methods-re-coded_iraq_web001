@@ -30,3 +30,4 @@ class Circle{
   }
   
 }
+let circle = new Circle(6)
