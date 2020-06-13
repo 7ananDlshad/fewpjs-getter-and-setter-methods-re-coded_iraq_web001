@@ -6,15 +6,15 @@ class Circle{
   }
   
   get diameter(){
-    
+        return `diameter equal to  ${this.diameter}`;
   }
   
   get circumference(){
-    
+    return `circumference equal to  ${this.circumference}`;
   }
 
   get area(){
-    
+    return `area equal to  ${this.area}`;
   }
   
   set diameter(radius){
