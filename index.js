@@ -18,7 +18,7 @@ class Circle{
   }
   
   set diameter(newdia){
-   this.diameter = newdia/2
+   this.diameter = (newdia / 2)
   }
   
   set circumference(newcir){
