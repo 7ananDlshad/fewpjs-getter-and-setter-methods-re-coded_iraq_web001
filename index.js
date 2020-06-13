@@ -6,28 +6,27 @@ class Circle{
   }
   
   get diameter(){
-     this.diameter = this.radius * 2
-        return `diameter equal to  ${this.diameter}`;
+    return   this.radius * 2
   }
   
   get circumference(){
-    return `circumference equal to  ${this.circumference}`;
+   return this.pi * this.diameter
   }
 
   get area(){
-    return `area equal to  ${this.area}`;
+   return this.pi * this.radius * this.radius
   }
   
   set diameter(radius){
-   
+   this.radius = radius
   }
   
   set circumference(diameter){
-     this.circumference = this.pi * diameter
+    this.diameter = diameter
   }
   
   set area(radius){
-    this.area = this.pi * radius * radius
+    this.radius = radius
   }
   
 }
