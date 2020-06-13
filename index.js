@@ -17,16 +17,16 @@ class Circle{
     return `area equal to  ${this.area}`;
   }
   
-  set diameter(radius){
-    this.diameter = radius * 2
+  set diameter(){
+    this.diameter = this.radius * 2
   }
   
-  set circumference(diameter){
-     this.circumference = this.pi * diameter
+  set circumference(){
+     this.circumference = this.pi * this.diameter
   }
   
-  set area(radius){
-    this.area = this.pi * radius * radius
+  set area(){
+    this.area = this.pi * this.radius * this.radius
   }
   
 }
