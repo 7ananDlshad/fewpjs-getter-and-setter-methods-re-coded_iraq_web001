@@ -32,3 +32,5 @@ class Circle{
 }
 let circle = new Circle(6)
 circle.radius
+circle.circumference
+circle.area
