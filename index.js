@@ -6,6 +6,7 @@ class Circle{
   }
   
   get diameter(){
+     this.diameter = this.radius * 2
         return `diameter equal to  ${this.diameter}`;
   }
   
@@ -18,7 +19,7 @@ class Circle{
   }
   
   set diameter(radius){
-    this.diameter = radius * 2
+   
   }
   
   set circumference(diameter){
