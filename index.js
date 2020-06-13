@@ -17,4 +17,16 @@ class Circle{
     
   }
   
+  set diameter(radius){
+    this.diameter = radius * 2
+  }
+  
+  set circumference(diameter){
+     this.circumference = this.pi * diameter
+  }
+  
+  set area(radius){
+    this.area = this.pi * radius * radius
+  }
+  
 }
