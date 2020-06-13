@@ -5,6 +5,16 @@ class Circle{
     this.pi = Math.PI()
   }
   
-  get 
+  get diameter(){
+    
+  }
+  
+  get diameter(){
+    
+  }
+
+  get diameter(){
+    
+  }
   
 }
