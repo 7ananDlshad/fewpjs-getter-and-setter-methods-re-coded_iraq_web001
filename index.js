@@ -35,3 +35,5 @@ circle.radius
 circle.diameter
 circle.circumference
 circle.area
+ circle.diameter = 36
+ circle.circumference = 100
